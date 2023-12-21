@@ -12,7 +12,7 @@ public class Shape {
         int size = points.size();
         double[] sides = new double[size];
         for (int i = 0; i < size; i++){
-            if (i == points.size() - 1) {
+            if (i == size - 1) {
                 sides[i] = points.get(i).getDistance(points.getFirst());
                 break;
             }
