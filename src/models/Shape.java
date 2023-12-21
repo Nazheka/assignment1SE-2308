@@ -35,7 +35,7 @@ public class Shape {
     }
 
     public double getLongestSide() {
-        int sides = points.size() / 2;
+        int sides = points.size();
         double longSide = Double.MIN_VALUE;
         for (int i = 0; i < sides; i++) {
             if (getSides()[i] > longSide) {
